@@ -1,0 +1,57 @@
+@font-face {
+	src: url(../fonts/Montserrat-Bold.ttf);
+	font-family: M-bold;
+}
+
+.project-list {
+	position: absolute;
+	top: 30%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.project-odd {
+	display: inline-flex;
+	width: 100%;
+	color: #292830;
+	background-color: #ffbf00;
+	transition: 0.3s;
+}
+
+.project-even {
+	display: inline-flex;
+	width: 100%;
+	color: #ffbf00;
+	transition: 0.3s;
+}
+
+.project-odd:hover {
+	cursor: pointer;
+	background-color: #ffbf00c0;
+}
+
+.project-even:hover {
+	cursor: pointer;
+	color: #ffbf00c0;
+}
+
+h1 {
+	font-family: M-bold;
+	font-size: 3.75em;
+	background-color: transparent;
+}
+
+.project-number {
+	padding: 1% 10% 1% 7%;
+}
+
+.project-name {
+	padding: 1% 10% 1% 10%;
+}
+
+.link {
+	text-decoration: inherit;
+	color: inherit;
+	cursor: auto;
+}

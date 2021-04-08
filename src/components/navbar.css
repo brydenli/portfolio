@@ -1,0 +1,44 @@
+@font-face {
+	src: url(../fonts/Montserrat-Regular.ttf);
+	font-family: M-reg;
+}
+
+@font-face {
+	src: url(../fonts/Montserrat-ExtraBold.ttf);
+	font-family: M-extrabold;
+}
+
+.navbar {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.navbar-logo {
+	padding: 0 0 0 1%;
+	margin-right: auto;
+	font-family: M-extrabold;
+	text-decoration: none;
+	color: #eeeeee;
+	font-size: 2.5em;
+}
+
+header {
+	display: flex;
+	justify-content: flex-end;
+	align-content: center;
+	padding: 25px 3%;
+}
+
+.navbar-links {
+	display: inline-block;
+	padding: 0 30px;
+	list-style-type: none;
+}
+
+.list-item-font {
+	font-family: M-reg, monospace;
+	letter-spacing: 1px;
+	text-decoration: none;
+	color: #eeeeee;
+}
