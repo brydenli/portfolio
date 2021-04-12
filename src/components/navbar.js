@@ -12,7 +12,11 @@ const Navbar = () => {
 
 				<ul>
 					<li className='navbar-links'>
-						<a href='#' className='list-item-font'>
+						<a
+							href='https://github.com/brydenli/'
+							target='_blank'
+							className='list-item-font'
+						>
 							github
 						</a>
 					</li>

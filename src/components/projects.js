@@ -9,13 +9,13 @@ const Projects = () => {
 				<a className='link' href='/'>
 					<div className='project-odd'>
 						<h1 className='project-number'>01</h1>
-						<h1 className='project-name'>Project</h1>
+						<h1 className='project-name'>teamtool</h1>
 					</div>
 				</a>
 				<a className='link' href='/'>
 					<div className='project-even'>
 						<h1 className='project-number'>02</h1>
-						<h1 className='project-name'>Project</h1>
+						<h1 className='project-name'>logbook</h1>
 					</div>
 				</a>
 				<a className='link' href='/'>
