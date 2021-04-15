@@ -1,0 +1,20 @@
+@font-face {
+	src: url(../../../fonts/Montserrat-Bold.ttf);
+	font-family: M-bold;
+}
+
+@font-face {
+	src: url(../../../fonts/Montserrat-Regular.ttf);
+	font-family: M-reg;
+}
+
+.title-font {
+	font-family: M-bold;
+	font-size: 3.3em;
+	margin-bottom: 0;
+	color: #ffbf00;
+}
+
+.title {
+	margin: 0 0 3% 5%;
+}

@@ -18,10 +18,13 @@ export const Main = () => {
 						Calgary with a passion for software development, as well as a drive
 						to learn new concepts, programming languages, and frameworks. My
 						work experiences and team opportunities have aided the growth of my
-						soft-skills, however my desire to pursue a software-development
+						soft-skills; however, my desire to pursue a software-development
 						career has propelled my self-learning and project-creation in this
-						space. Currently, I have mostly been working with React, Express,
-						and MongoDB; however, I am looking to expand my foundation as a
+						field.
+						<br />
+						<br />
+						Currently, I have mostly been working with React, Express, and
+						MongoDB; however, I am looking to expand my foundation as a
 						developer to incorporate a more diverse variety of concepts.
 						<br />
 						<br />

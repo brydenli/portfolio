@@ -21,7 +21,11 @@ const Navbar = () => {
 						</a>
 					</li>
 					<li className='navbar-links'>
-						<a href='#' className='list-item-font'>
+						<a
+							href='https://www.linkedin.com/in/bryden-li/'
+							target='_blank'
+							className='list-item-font'
+						>
 							linkedin
 						</a>
 					</li>
