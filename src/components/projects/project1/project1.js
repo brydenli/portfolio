@@ -1,7 +1,5 @@
 import React from 'react';
 import './project1.css';
-import img1 from './team_list.PNG';
-import img2 from './team_members.PNG';
 
 const Project1 = () => {
 	return (
@@ -16,18 +14,17 @@ const Project1 = () => {
 					>
 						Click to view code on Github
 					</a>
-					<h4 className='alert'>**Page layout to be updated ASAP</h4>
 				</div>
 			</div>
-			<div className='flex-container'>
-				<div className='container-div'>
-					<img src={img2} alt='Team Members' height='650' width='1000' />
-					<h3>List of Team Members</h3>
-				</div>
-				<div className='container-div'>
-					<img src={img1} alt='Team List' height='500' width='1000' />
-					<h3>List of Joined Teams</h3>
-				</div>
+			<div className='video-container'>
+				<iframe
+					src='https://www.youtube.com/embed/PNvRQkWeMM8'
+					frameborder='0'
+					allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
+					allowfullscreen
+					width='1700'
+					height='800'
+				></iframe>
 			</div>
 			<div>
 				<div className='flex-container'>

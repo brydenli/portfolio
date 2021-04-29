@@ -1,15 +1,15 @@
 import React from 'react';
-import './project3.css';
+import './project4.css';
 
-const Project3 = () => {
+const Project4 = () => {
 	return (
 		<div>
 			<div className='title'>
-				<h1 className='title-font'>Project: reddit-scraper</h1>
+				<h1 className='title-font'>Project: recipe-finder</h1>
 				<div className='github-div'>
 					<a
 						className='github-link'
-						href='https://github.com/brydenli/reddit-scraper'
+						href='https://github.com/brydenli/recipe-finder'
 						target='_blank'
 					>
 						Click to view code on Github
@@ -18,7 +18,7 @@ const Project3 = () => {
 			</div>
 			<div className='video-container'>
 				<iframe
-					src='https://www.youtube.com/embed/F3vYzs30F8Y'
+					src='https://www.youtube.com/embed/PhAMhi_dSSs'
 					frameborder='0'
 					allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
 					allowfullscreen
@@ -49,10 +49,10 @@ const Project3 = () => {
 					<h3>Project Features:</h3>
 					<ul>
 						<li>
-							<h3>Scrape Top Reddit Posts for up to 5 Subreddits</h3>
+							<h3>Search for recipes using a key ingredient (e.g. Basil)</h3>
 						</li>
 						<li>
-							<h3>Headless Browser Control via Puppeteer</h3>
+							<h3>Find random recipes</h3>
 						</li>
 					</ul>
 				</div>
@@ -61,4 +61,4 @@ const Project3 = () => {
 	);
 };
 
-export default Project3;
+export default Project4;

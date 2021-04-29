@@ -21,7 +21,13 @@ const Projects = () => {
 				<a className='link' href='/projects/03'>
 					<div className='project-odd'>
 						<h1 className='project-number'>03</h1>
-						<h1 className='project-name'>Project: TBD</h1>
+						<h1 className='project-name'>reddit-scraper</h1>
+					</div>
+				</a>
+				<a className='link' href='/projects/04'>
+					<div className='project-even'>
+						<h1 className='project-number'>04</h1>
+						<h1 className='project-name'>recipe-finder</h1>
 					</div>
 				</a>
 			</div>

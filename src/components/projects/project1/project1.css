@@ -10,7 +10,7 @@
 
 .alert {
 	font-family: M-bold;
-	color: red;
+	color: rgb(255, 123, 0);
 }
 
 .title-font {
@@ -53,18 +53,18 @@ h2 {
 }
 
 .flex-container {
-	display: inline-flex;
-	width: 100%;
-	justify-content: space-between;
+	display: flex;
+	justify-content: center;
 }
 
 .container-div-1 {
-	margin-left: 15%;
-	margin-bottom: 5%;
+	display: inline-block;
+	margin: 0 2% 0 2%;
 }
 
 .container-div-2 {
-	margin-right: 15%;
+	display: inline-block;
+	margin: 0 2% 0 2%;
 }
 
 .container-div {
@@ -73,4 +73,9 @@ h2 {
 	width: 50%;
 	margin: 0;
 	padding: 0 3% 0 3%;
+}
+
+.video-container {
+	display: flex;
+	justify-content: center;
 }
