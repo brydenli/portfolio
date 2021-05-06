@@ -20,8 +20,7 @@ const Project3 = () => {
 				<iframe
 					src='https://www.youtube.com/embed/F3vYzs30F8Y'
 					frameborder='0'
-					allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
-					allowfullscreen
+					allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen'
 					width='1700'
 					height='800'
 				></iframe>

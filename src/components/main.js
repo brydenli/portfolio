@@ -20,9 +20,9 @@ export const Main = () => {
 						<br />
 						<br />
 						With experience in JavaScript, React, Express.js, Node.js, HTML5,
-						CSS3 and MongoDB Atlas, I am eager to expand my foundation as a
-						developer to incorporate a more diverse variety of programming
-						tools.
+						CSS3 and MongoDB Atlas, I am eager to utilize and expand my
+						foundation as a developer to incorporate a more diverse variety of
+						programming tools.
 						<br />
 						<br />
 						Please take a look at my projects and contact me for more
