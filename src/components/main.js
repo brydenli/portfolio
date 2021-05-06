@@ -11,7 +11,7 @@ export const Main = () => {
 			<div className='secondary-container'>
 				<div className='about-me'>
 					<p>
-						My name is Bryden Li and this is my Software Development Portfolio.
+						My name is Bryden Li and this is my Software Development portfolio.
 						<br />
 						<br />
 						I am a Mechanical Engineering graduate from the University of
