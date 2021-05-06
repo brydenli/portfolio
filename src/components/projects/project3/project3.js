@@ -26,36 +26,13 @@ const Project3 = () => {
 					height='800'
 				></iframe>
 			</div>
-			<div className='flex-container'>
-				<div className='container-div-1'>
-					<h3>Languages/Frameworks/Database Used:</h3>
 
-					<ul>
-						<li>
-							<h3>JavaScript</h3>
-						</li>
-						<li>
-							<h3>React</h3>
-						</li>
-						<li>
-							<h3>Node</h3>
-						</li>
-						<li>
-							<h3>Express</h3>
-						</li>
-					</ul>
-				</div>
-				<div className='container-div-2'>
-					<h3>Project Features:</h3>
-					<ul>
-						<li>
-							<h3>Scrape Top Reddit Posts for up to 5 Subreddits</h3>
-						</li>
-						<li>
-							<h3>Headless Browser Control via Puppeteer</h3>
-						</li>
-					</ul>
-				</div>
+			<div className='container-div'>
+				<h3>
+					Project Goal: Scrape top posts from up to 5 different subreddits using
+					headless browser control via Puppeteer!
+				</h3>
+				<h3>Tech Stack: JavaScript, React, Node.js, Express.js</h3>
 			</div>
 		</div>
 	);

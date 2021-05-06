@@ -26,36 +26,12 @@ const Project4 = () => {
 					height='800'
 				></iframe>
 			</div>
-			<div className='flex-container'>
-				<div className='container-div-1'>
-					<h3>Languages/Frameworks/Database Used:</h3>
-
-					<ul>
-						<li>
-							<h3>JavaScript</h3>
-						</li>
-						<li>
-							<h3>React</h3>
-						</li>
-						<li>
-							<h3>Node</h3>
-						</li>
-						<li>
-							<h3>Express</h3>
-						</li>
-					</ul>
-				</div>
-				<div className='container-div-2'>
-					<h3>Project Features:</h3>
-					<ul>
-						<li>
-							<h3>Search for recipes using a key ingredient (e.g. Basil)</h3>
-						</li>
-						<li>
-							<h3>Find random recipes</h3>
-						</li>
-					</ul>
-				</div>
+			<div className='container-div'>
+				<h3>
+					Project Goal: Search for recipes using a key ingredient, or find
+					random recipes!
+				</h3>
+				<h3>Tech Stack: JavaScript, React, Node.js, Express.js</h3>
 			</div>
 		</div>
 	);

@@ -13,11 +13,6 @@
 	src: url(../../../fonts/Montserrat-Light.ttf);
 }
 
-.alert {
-	font-family: M-bold;
-	color: rgb(255, 123, 0);
-}
-
 .title-font {
 	font-family: M-bold;
 	font-size: 3.3em;
@@ -49,6 +44,18 @@ h3 {
 	font-family: M-light;
 	font-size: 1em;
 	color: #ffbf00;
+}
+
+.img-container {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+img {
+	height: auto;
+	width: 100%;
+	max-width: 1600px;
 }
 
 .container-div {

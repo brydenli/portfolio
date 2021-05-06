@@ -8,6 +8,11 @@
 	font-family: M-reg;
 }
 
+@font-face {
+	font-family: M-light;
+	src: url(../../../fonts/Montserrat-Light.ttf);
+}
+
 .alert {
 	font-family: M-bold;
 	color: rgb(255, 123, 0);
@@ -21,7 +26,7 @@
 }
 
 .title {
-	margin: 0 0 3% 5%;
+	margin: 0 0 0 5%;
 }
 
 a {
@@ -41,7 +46,7 @@ a {
 }
 
 h3 {
-	font-family: M-reg;
+	font-family: M-light;
 	font-size: 1em;
 	color: #eeeeee;
 }
@@ -52,25 +57,15 @@ h2 {
 	color: #eeeeee;
 }
 
-.flex-container {
+.container-div {
+	display: inline-block;
+	width: 50%;
+	justify-content: center;
+
+	text-align: center;
+}
+
+.video-container {
 	display: flex;
 	justify-content: center;
-}
-
-.container-div-1 {
-	display: inline-block;
-	margin: 0 2% 0 2%;
-}
-
-.container-div-2 {
-	display: inline-block;
-	margin: 0 2% 0 2%;
-}
-
-.container-div {
-	text-align: center;
-	float: left;
-	width: 50%;
-	margin: 0 0 2% 0;
-	padding: 0 3% 0 3%;
 }
