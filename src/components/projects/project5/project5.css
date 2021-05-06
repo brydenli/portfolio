@@ -4,6 +4,11 @@
 }
 
 @font-face {
+	font-family: M-med;
+	src: url(../../../fonts/Montserrat-Medium.ttf);
+}
+
+@font-face {
 	src: url(../../../fonts/Montserrat-Regular.ttf);
 	font-family: M-reg;
 }
@@ -24,17 +29,28 @@
 	margin: 0 0 3% 5%;
 }
 
-a {
-	font-family: M-reg;
-}
-
 .github-link {
+	font-family: M-reg;
 	text-decoration: inherit;
 	cursor: auto;
 	color: #ffbf00;
 }
 
 .github-link:hover {
+	text-decoration: inherit;
+	cursor: pointer;
+	color: #ffbf00c0;
+}
+
+.project-site-link {
+	font-family: M-med;
+	font-size: 1.5rem;
+	text-decoration: inherit;
+	cursor: auto;
+	color: #ffbf00;
+}
+
+.project-site-link:hover {
 	text-decoration: inherit;
 	cursor: pointer;
 	color: #ffbf00c0;
@@ -47,7 +63,6 @@ h3 {
 }
 
 .img-container {
-	display: flex;
 	justify-content: center;
 	text-align: center;
 }

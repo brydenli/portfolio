@@ -16,16 +16,18 @@ const Project5 = () => {
 						Click to view code on Github
 					</a>
 					<br />
-					<a
-						className='github-link'
-						href='https://rhythm-query.herokuapp.com/'
-						target='_blank'
-					>
-						Click to visit project site @ https://rhythm-query.herokuapp.com/
-					</a>
 				</div>
 			</div>
 			<div className='img-container'>
+				<div>
+					<a
+						className='project-site-link'
+						href='https://rhythm-query.herokuapp.com/'
+						target='_blank'
+					>
+						Visit project site @ https://rhythm-query.herokuapp.com/
+					</a>
+				</div>
 				<img src={img1} alt='rhythm-query'></img>
 			</div>
 			<div className='container-div'>
