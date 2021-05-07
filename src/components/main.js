@@ -28,8 +28,8 @@ export const Main = () => {
 						Please take a look at my projects and contact me for more
 						information.
 					</p>
-					<a className='email' href='mailto:connect@bryden.li'>
-						email: connect@bryden.li
+					<a className='email' href='mailto:brydenli.97@gmail.com'>
+						email: brydenli.97@gmail.com
 					</a>
 					<br />
 				</div>
