@@ -10,7 +10,7 @@ const Project5 = () => {
 				<div className='github-div'>
 					<a
 						className='github-link'
-						href='https://github.com/brydenli/https://github.com/brydenli/rhythm-query'
+						href='https://github.com/brydenli/rhythm-query'
 						target='_blank'
 					>
 						Click to view code on Github
