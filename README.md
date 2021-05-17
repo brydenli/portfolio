@@ -1,3 +1,3 @@
 ## Personal Portfolio
 
-Built with React, hosted on bryden.li!
+Built with React, hosted on http://bryden.li!
