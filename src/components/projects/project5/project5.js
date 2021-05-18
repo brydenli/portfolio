@@ -28,7 +28,7 @@ const Project5 = () => {
 						Visit project site @ https://rhythm-query.herokuapp.com/
 					</a>
 				</div>
-				<img src={img1} alt='rhythm-query'></img>
+				<img className='rhythm-query-img' src={img1} alt='rhythm-query'></img>
 			</div>
 			<div className='container-div'>
 				<h3 className='description-text'>

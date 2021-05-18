@@ -36,6 +36,12 @@ const Projects = () => {
 						<h1 className='project-name'>rhythm-query</h1>
 					</div>
 				</a>
+				<a className='link' href='/projects/06'>
+					<div className='project-even'>
+						<h1 className='project-number'>06</h1>
+						<h1 className='project-name'>recipe-finder-mobile</h1>
+					</div>
+				</a>
 			</div>
 		</div>
 	);

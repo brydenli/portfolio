@@ -8,6 +8,7 @@ import Project2 from '../components/projects/project2/project2';
 import Project3 from '../components/projects/project3/project3';
 import Project4 from '../components/projects/project4/project4';
 import Project5 from '../components/projects/project5/project5';
+import Project6 from '../components/projects/project6/project6';
 
 function App() {
 	return (
@@ -22,6 +23,7 @@ function App() {
 					<Route path='/projects/03' component={Project3} />
 					<Route path='/projects/04' component={Project4} />
 					<Route path='/projects/05' component={Project5} />
+					<Route path='/projects/06' component={Project6} />
 				</Switch>
 			</Router>
 		</div>
