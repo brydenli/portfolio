@@ -16,14 +16,14 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path="/" exact component={Main} />
-          <Route path="/projects" exact component={Projects} />
-          <Route path="/projects/01" component={Project1} />
-          <Route path="/projects/02" component={Project2} />
-          <Route path="/projects/03" component={Project3} />
-          <Route path="/projects/04" component={Project4} />
-          <Route path="/projects/05" component={Project5} />
-          <Route path="/projects/06" component={Project6} />
+          <Route path="/" exact element={<Main />} />
+          <Route path="/projects" exact element={<Projects />} />
+          <Route path="/projects/01" element={<Project1 />} />
+          <Route path="/projects/02" element={<Project2 />} />
+          <Route path="/projects/03" element={<Project3 />} />
+          <Route path="/projects/04" element={<Project4 />} />
+          <Route path="/projects/05" element={<Project5 />} />
+          <Route path="/projects/06" element={<Project6 />} />
         </Routes>
       </Router>
     </div>
