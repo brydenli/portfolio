@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from '../components/navbar';
 import Main from '../components/main';
 import Projects from '../components/projects';
@@ -11,23 +11,23 @@ import Project5 from '../components/projects/project5/project5';
 import Project6 from '../components/projects/project6/project6';
 
 function App() {
-	return (
-		<div>
-			<Router>
-				<Navbar />
-				<Switch>
-					<Route path='/' exact component={Main} />
-					<Route path='/projects' exact component={Projects} />
-					<Route path='/projects/01' component={Project1} />
-					<Route path='/projects/02' component={Project2} />
-					<Route path='/projects/03' component={Project3} />
-					<Route path='/projects/04' component={Project4} />
-					<Route path='/projects/05' component={Project5} />
-					<Route path='/projects/06' component={Project6} />
-				</Switch>
-			</Router>
-		</div>
-	);
+  return (
+    <div>
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/" exact element={<Main />} />
+          <Route path="/projects" exact element={<Projects />} />
+          <Route path="/projects/01" element={<Project1 />} />
+          <Route path="/projects/02" element={<Project2 />} />
+          <Route path="/projects/03" element={<Project3 />} />
+          <Route path="/projects/04" element={<Project4 />} />
+          <Route path="/projects/05" element={<Project5 />} />
+          <Route path="/projects/06" element={<Project6 />} />
+        </Routes>
+      </Router>
+    </div>
+  );
 }
 
 export default App;
