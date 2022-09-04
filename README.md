@@ -1,3 +1,3 @@
 ## Personal Portfolio
 
-My personal software development portfolio. Built with React, hosted on http://bryden.li!
+My personal software development portfolio from Apr 2021 - Sep 2022.
