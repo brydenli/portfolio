@@ -1,3 +1,3 @@
 ## Personal Portfolio
 
-My personal software development portfolio from Apr 2021 - Sep 2022.
+My personal software development portfolio from 2021 to 2022.
